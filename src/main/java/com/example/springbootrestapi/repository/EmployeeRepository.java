@@ -1,0 +1,9 @@
+package com.example.springbootrestapi.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.springbootrestapi.entity.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Long>{
+
+}
